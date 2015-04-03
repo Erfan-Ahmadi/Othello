@@ -6,7 +6,7 @@
 Piece::Piece(Cell cel, Kind c) : cell(cel), kind(c) { /*std::cout << "Piece Generated : " << repr() << std::endl;*/ }
 
 //char Piece::repr() const { return (kind == Kind::White) ? 'W' : 'B'; }
-char Piece::repr() const { return (kind == Kind::White) ? (char)176 : (char)219; }
+char Piece::repr() const { return (kind == Kind::White) ? (char)219 : (char)176; }
 
 Cell Piece::getPosition() const { return cell; }
 
